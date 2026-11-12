@@ -9,6 +9,18 @@
   on every release - edits made directly here will be overwritten.
 -->
 
+## 1.1.50 (2026-11-12)
+
+### Security update and performance improvements
+
+This release addresses a security vulnerability in the Undici dependency and improves performance when importing API descriptions from extensionless URLs.
+
+- Updated Undici to address CVE-2026-116592
+- Importing extensionless API description URLs now makes one request instead of two
+- Upgraded Scalar SDK to version 0.7.0
+
+[Read full release notes](https://github.com/scalar/scalar/blob/main/projects/scalar-app/CHANGELOG.md#1150)
+
 ## 1.1.49 (2026-11-12)
 
 ### Improved handling for large API specifications with merge keys

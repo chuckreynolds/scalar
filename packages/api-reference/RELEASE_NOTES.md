@@ -9,6 +9,20 @@
   on every release - edits made directly here will be overwritten.
 -->
 
+## 1.79.0 (2026-11-12)
+
+### Redesigned code cards with lifted surfaces
+
+Code cards in the API reference now feature a modern design with a 12px padded shell and code blocks on lifted surfaces. The request example, response cards, operations list, and other code areas all adopt this new look with improved visual hierarchy.
+
+- Code blocks now sit on lifted surfaces with subtle shadows, creating better visual separation from their containers
+- Card borders and dividers are replaced with a 12px rounded shell and 4px padding for a cleaner appearance
+- Surface colors automatically adapt to light and dark themes using relative color calculations
+- Custom themes remain compatible as all class names are unchanged and new styles use lower-specificity selectors
+- Cards recolored to match their background may need the border prop to maintain visible edges
+
+[Read full release notes](https://github.com/scalar/scalar/blob/main/packages/api-reference/CHANGELOG.md#1790)
+
 ## 1.78.1 (2026-11-12)
 
 ### Large API documents with shared components now parse successfully

@@ -1,5 +1,11 @@
 # @scalar/openapi-validator
 
+## 0.1.21
+
+### Patch Changes
+
+- [#11010](https://github.com/scalar/scalar/pull/11010): Reject server variable defaults outside their enum values in OpenAPI 3.1 and 3.2, while preserving OpenAPI 3.0 behavior.
+
 ## 0.1.20
 
 No changes in this release.
